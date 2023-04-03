@@ -13,7 +13,7 @@ body, html {
   }
 
   #overlay {
-    opacity: 50px;
+    opacity: 50%;
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
     background-color: #000;

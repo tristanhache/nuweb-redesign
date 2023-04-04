@@ -11,17 +11,17 @@ body, html {
   .logo {
     width: 400px;
   }
-  
-  .bg-image {
-    /* The image used */
-    background-image: url("https://i.ibb.co/SPG7QbD/background.png");
-  
-    /* Add the blur effect */
+  .bg-image::before {
     content: "";
     position: absolute;
     width: 100%;
     height: 100vh;
     backdrop-filter: blur(5px);
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://i.ibb.co/SPG7QbD/background.png");
   
     /* Full height */
     height: 100%;

@@ -11,15 +11,10 @@ body, html {
   .logo {
     width: 400px;
   }
-
-  #overlay {
-    box-shadow: inset 2000px 0 0 0 rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 1);
-  }
   
   .bg-image {
     /* The image used */
-    background-image: url("https://www.nuweb.ca/wp-content/uploads/2016/02/blog03.jpg");
+    background-image: url("https://i.ibb.co/SPG7QbD/background.png");
   
     /* Add the blur effect */
     filter: blur(8px);
